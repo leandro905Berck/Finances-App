@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#registros {
+  margin-top: 20px;
+}
+
+.registro {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
